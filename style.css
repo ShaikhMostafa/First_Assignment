@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.first-color{
+    color:#FFAD5A;
+}
+.second-color{
+    color: #FF5959;
+}
+.header_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.div{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.div img{
+    width: 100%;
+    height: 100%;
+}
+.text_box{
+    border-left: 4px solid #FF5959;
+    border-width: 80%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.text_box h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    
+}
+.div p{
+    width: 75%;
+    margin: 30px 0;
+}
+.div h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: .7;
+}
+button{
+    background-color: #FF5959;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 3px;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* First Section CSS ok */
+section{
+    padding: 60px 0;
+}
+
+.title_box{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.div-box{
+    width: 90%;
+    margin: 0 15px;
+    padding: 5px 35px;
+    background-color: #ddd;
+    border-radius: 5%;
+    height: 450px;
+    
+}
+.div-box p{
+    text-align: justify;
+}
+.mission-1{
+    background-color: rgba(79, 162, 166, 10%);
+    
+}
+.mission-2{
+    background-color: rgb(255, 89, 89, 10%);
+}
+.mission-3{
+    background-color: #FFF4D6;
+}
+.div-box img{
+    width: 70%;
+}
+.div p{
+    text-align: justify;
+}
+
+.developer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.div{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 4px 0px;
+    color: #fff;
+    line-height: 0.7;
+}
+.footer-content h3{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    letter-spacing: 2px;
+    
+}
+
+#mobile{
+    width: 60%;
+}
+.app_header{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.7;
+    text-transform: uppercase;
+}
+.team_member{
+    display: flex;
+}
+.member img{
+    width: 50%;
+}
+.member{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 5px 4px 3px 2px #c5c2c2;
+    
+}
+.card1{
+    
+    background: linear-gradient(45deg, rgba(244,148,95,0.8048261540944502) 18%, rgba(244,99,95,1) 87%);
+}
+
+.card2{
+
+    background: linear-gradient(45deg, rgba(238, 86, 4, 0.805) 18%, rgb(130, 151, 247) 87%);
+}
+
+.card3{
+    
+    background: linear-gradient(45deg, rgba(244, 197, 95, 0.805) 18%, rgb(120, 157, 238) 87%);
+}
+
+.card4{
+    
+    background: linear-gradient(45deg, rgba(153, 223, 63, 0.805) 18%, rgb(202, 111, 108) 87%);
+}
+.bgimg-1{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right  bottom;
+    bottom: 20px;
+    background-size: 200px;
+    padding-right: 20px;
+}
+
+.bgimg-2{
+    padding: 0 26px 20px 0;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+.fab{
+    font-size: 30px;
+
+}
