@@ -72,6 +72,7 @@ section{
     text-align: center;
     font-size: 28px;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .div-box{
@@ -130,48 +131,6 @@ footer{
     
 }
 
-#mobile{
-    width: 60%;
-}
-.app_header{
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 0.7;
-    text-transform: uppercase;
-}
-.team_member{
-    display: flex;
-}
-.member img{
-    width: 50%;
-}
-.member{
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 4px;
-    box-shadow: 5px 4px 3px 2px #c5c2c2;
-    
-}
-.card1{
-    
-    background: linear-gradient(45deg, rgba(244,148,95,0.8048261540944502) 18%, rgba(244,99,95,1) 87%);
-}
-
-.card2{
-
-    background: linear-gradient(45deg, rgba(238, 86, 4, 0.805) 18%, rgb(130, 151, 247) 87%);
-}
-
-.card3{
-    
-    background: linear-gradient(45deg, rgba(244, 197, 95, 0.805) 18%, rgb(120, 157, 238) 87%);
-}
-
-.card4{
-    
-    background: linear-gradient(45deg, rgba(153, 223, 63, 0.805) 18%, rgb(202, 111, 108) 87%);
-}
 .bgimg-1{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -188,7 +147,4 @@ footer{
     background-position: left;
     background-size: 200px;
 }
-.fab{
-    font-size: 30px;
 
-}
